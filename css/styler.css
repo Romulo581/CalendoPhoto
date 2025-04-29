@@ -1,0 +1,36 @@
+:root{
+    /*parela de Cores*/
+    --cor-fundo-primary:#F5E8DC;
+    --cor-destaque:#A7C5D8;
+    /*cores Neutras*/
+    --cor-neutra-clara:#D4D4D4;
+    --cor-neutra-escura:#B0B0B0;
+    /*cores naturais*/
+    --cor-natureza-clara:#B7C7B2;
+    /*cores emocionais*/
+    --cor-emocao-clara:#E8B4B8;
+    /*cores de texto*/
+    --cor-texto-pricipal:#333333;    
+    --cor-texto-secundario:#666666;
+    --cor-texto-terciaria:#ffffff;
+}
+body{
+    background: var(--cor-fundo-primary);
+    margin: 0;
+    padding: 0;
+}
+header{
+    background:var(--cor-destaque) ;
+}
+nav{
+    background:var(--cor-neutra-clara) ;
+}
+main{
+    background:var(--cor-neutra-escura) ;
+}
+section{
+    background:var(--cor-natureza-clara) ;
+}
+footer{
+    background:var(--cor-texto-terciaria) ;
+}
