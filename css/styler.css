@@ -21,16 +21,26 @@ body{
 }
 header{
     background:var(--cor-destaque) ;
+    margin: 0;
+    padding: 0;
 }
 nav{
     background:var(--cor-neutra-clara) ;
+    margin: 0;
+    padding: 0;
 }
 main{
     background:var(--cor-neutra-escura) ;
+    margin: 0;
+    padding: 0;
 }
 section{
     background:var(--cor-natureza-clara) ;
+    margin: 0;
+    padding: 0;
 }
 footer{
-    background:var(--cor-texto-terciaria) ;
+    background:var(--cor-emocao-clara) ;
+    margin: 0;
+    padding: 0;
 }
